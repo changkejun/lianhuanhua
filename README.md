@@ -5,4 +5,4 @@ A Javascript Gallery with Text-To-Speech.
 
 不过整理连环画的故事旁白实在是太耗时了。只有几篇是整理完成的。其他的都是只有开头和结尾。
 
-<a href="changkejun.github.io/lianhuanhua/">changkejun.github.io/lianhuanhua/</a>
+<a href="https://changkejun.github.io/lianhuanhua/">changkejun.github.io/lianhuanhua/</a>
