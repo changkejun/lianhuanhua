@@ -161,7 +161,7 @@
 		];
 		
 		function addImages(ary,series){
-			var resource="http://www.crazy-programmer.net/lianhuanhua/resource";
+			var resource="https://www.crazy-programmer.net/lianhuanhua/resource";
 			for (var i=0;i<ary.length;i++){
 				$("body").append("<a href=\"javascript:showGallery('json/"+series+"/"+ary[i].idx+".json','"+resource+"/"+series+"');\">"+
 				"<img src=\""+resource+"/"+series+"/thumbs/"+ary[i].idx+".jpg\" title=\""+ary[i].title+"\"></a>");
