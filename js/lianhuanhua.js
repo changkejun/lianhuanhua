@@ -1,18 +1,21 @@
 var gallery;
-function showGallery(idx,series){
+function showGallery(jsonUrl,resourceUrl){
 	var zoom=$("body").css("zoom");
 	$("body").css("zoom",1.2);
-	$("#langhuanhua-audio-background").attr("src",series+"/background.mp3");
+	$("#langhuanhua-audio-background").attr("src",resourceUrl+"/background.mp3");
 	$("#langhuanhua-audio-background")[0].volume=0.1;
-	$.getJSON(series+"/json/"+idx+".json" , function(data) {
+	$.getJSON(jsonUrl , function(data) {
+		for(var i=0;i<data.length;i++){
+			data[i].image=resourceUrl+"/"+data[i].image;//add resource url to image.
+		}
 		gallery=blueimp.Gallery(data,{
 			titleProperty:"label",
 			altTextProperty:"label",
 			urlProperty:"image",
 			thumbnailProperty:"image",
 			startSlideshow: true,
-			transitionDuration: 1000,
-			slideshowTransitionDuration: 1000,
+			transitionDuration: 1000,//1s for animation
+			slideshowTransitionDuration: 1000,//1s for animation
 			onslideend:function(index, slide){
 				//clear the auto play timeout handle. because the next page will be shown after speech.
 				window.clearTimeout(gallery.timeout);
@@ -20,8 +23,8 @@ function showGallery(idx,series){
 				try{
 					//stop speech.
 					speechSynthesisCancel();
-					//split 
-					var ary=gallery.list[index].hanzi.split("。");//，
+					//split text. Because long text maybe stop the tts engine.
+					var ary=gallery.list[index].hanzi.split("。");
 					speechSynthesisTexts=[];
 					for(var i=0;i<ary.length;i++){
 						if (ary[i]==""){
@@ -67,7 +70,7 @@ function showGallery(idx,series){
 				$("body").css("zoom","");
 			}
 		});
-		$(".slides").css("background-image","url("+series+"/background.jpg)");
+		$(".slides").css("background-image","url("+resourceUrl+"/background.jpg)");
 	});
 }
 var speechSynthesisTexts=[];

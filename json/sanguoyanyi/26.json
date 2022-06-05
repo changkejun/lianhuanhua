@@ -1,0 +1,657 @@
+[
+	{
+		"label": "群英会",
+		"image": "26/001.jpg",
+		"hanzi": "群英会"
+	},
+	{
+		"label": "作者",
+		"image": "26/002.jpg",
+		"hanzi": "原著:罗贯中，改编:潘勤孟，绘画:凌涛，配音:疯狂程序员"
+	},
+	{
+		"label": "上美版三国演义第二十六册",
+		"image": "26/003.jpg",
+		"hanzi": "上美版三国演义第二十六册"
+	},
+	{
+		"label": "1/126",
+		"image": "26/004.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "2/126",
+		"image": "26/005.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "3/126",
+		"image": "26/006.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "4/126",
+		"image": "26/007.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "5/126",
+		"image": "26/008.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "6/126",
+		"image": "26/009.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "7/126",
+		"image": "26/010.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "8/126",
+		"image": "26/011.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "9/126",
+		"image": "26/012.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "10/126",
+		"image": "26/013.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "11/126",
+		"image": "26/014.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "12/126",
+		"image": "26/015.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "13/126",
+		"image": "26/016.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "14/126",
+		"image": "26/017.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "15/126",
+		"image": "26/018.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "16/126",
+		"image": "26/019.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "17/126",
+		"image": "26/020.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "18/126",
+		"image": "26/021.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "19/126",
+		"image": "26/022.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "20/126",
+		"image": "26/023.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "21/126",
+		"image": "26/024.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "22/126",
+		"image": "26/025.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "23/126",
+		"image": "26/026.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "24/126",
+		"image": "26/027.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "25/126",
+		"image": "26/028.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "26/126",
+		"image": "26/029.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "27/126",
+		"image": "26/030.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "28/126",
+		"image": "26/031.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "29/126",
+		"image": "26/032.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "30/126",
+		"image": "26/033.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "31/126",
+		"image": "26/034.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "32/126",
+		"image": "26/035.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "33/126",
+		"image": "26/036.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "34/126",
+		"image": "26/037.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "35/126",
+		"image": "26/038.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "36/126",
+		"image": "26/039.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "37/126",
+		"image": "26/040.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "38/126",
+		"image": "26/041.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "39/126",
+		"image": "26/042.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "40/126",
+		"image": "26/043.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "41/126",
+		"image": "26/044.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "42/126",
+		"image": "26/045.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "43/126",
+		"image": "26/046.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "44/126",
+		"image": "26/047.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "45/126",
+		"image": "26/048.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "46/126",
+		"image": "26/049.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "47/126",
+		"image": "26/050.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "48/126",
+		"image": "26/051.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "49/126",
+		"image": "26/052.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "50/126",
+		"image": "26/053.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "51/126",
+		"image": "26/054.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "52/126",
+		"image": "26/055.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "53/126",
+		"image": "26/056.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "54/126",
+		"image": "26/057.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "55/126",
+		"image": "26/058.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "56/126",
+		"image": "26/059.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "57/126",
+		"image": "26/060.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "58/126",
+		"image": "26/061.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "59/126",
+		"image": "26/062.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "60/126",
+		"image": "26/063.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "61/126",
+		"image": "26/064.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "62/126",
+		"image": "26/065.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "63/126",
+		"image": "26/066.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "64/126",
+		"image": "26/067.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "65/126",
+		"image": "26/068.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "66/126",
+		"image": "26/069.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "67/126",
+		"image": "26/070.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "68/126",
+		"image": "26/071.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "69/126",
+		"image": "26/072.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "70/126",
+		"image": "26/073.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "71/126",
+		"image": "26/074.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "72/126",
+		"image": "26/075.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "73/126",
+		"image": "26/076.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "74/126",
+		"image": "26/077.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "75/126",
+		"image": "26/078.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "76/126",
+		"image": "26/079.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "77/126",
+		"image": "26/080.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "78/126",
+		"image": "26/081.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "79/126",
+		"image": "26/082.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "80/126",
+		"image": "26/083.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "81/126",
+		"image": "26/084.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "82/126",
+		"image": "26/085.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "83/126",
+		"image": "26/086.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "84/126",
+		"image": "26/087.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "85/126",
+		"image": "26/088.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "86/126",
+		"image": "26/089.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "87/126",
+		"image": "26/090.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "88/126",
+		"image": "26/091.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "89/126",
+		"image": "26/092.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "90/126",
+		"image": "26/093.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "91/126",
+		"image": "26/094.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "92/126",
+		"image": "26/095.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "93/126",
+		"image": "26/096.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "94/126",
+		"image": "26/097.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "95/126",
+		"image": "26/098.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "96/126",
+		"image": "26/099.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "97/126",
+		"image": "26/100.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "98/126",
+		"image": "26/101.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "99/126",
+		"image": "26/102.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "100/126",
+		"image": "26/103.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "101/126",
+		"image": "26/104.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "102/126",
+		"image": "26/105.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "103/126",
+		"image": "26/106.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "104/126",
+		"image": "26/107.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "105/126",
+		"image": "26/108.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "106/126",
+		"image": "26/109.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "107/126",
+		"image": "26/110.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "108/126",
+		"image": "26/111.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "109/126",
+		"image": "26/112.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "110/126",
+		"image": "26/113.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "111/126",
+		"image": "26/114.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "112/126",
+		"image": "26/115.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "113/126",
+		"image": "26/116.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "114/126",
+		"image": "26/117.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "115/126",
+		"image": "26/118.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "116/126",
+		"image": "26/119.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "117/126",
+		"image": "26/120.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "118/126",
+		"image": "26/121.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "119/126",
+		"image": "26/122.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "120/126",
+		"image": "26/123.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "121/126",
+		"image": "26/124.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "122/126",
+		"image": "26/125.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "123/126",
+		"image": "26/126.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "124/126",
+		"image": "26/127.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "125/126",
+		"image": "26/128.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "126/126",
+		"image": "26/129.jpg",
+		"hanzi": ""
+	},
+	{
+		"label": "谢谢欣赏",
+		"image": "26/130.jpg",
+		"hanzi": "谢谢欣赏"
+	},
+	{
+		"label": "再见",
+		"image": "26/131.jpg",
+		"hanzi": "再见"
+	}
+]

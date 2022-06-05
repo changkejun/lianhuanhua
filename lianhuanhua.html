@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css" />
+	<link rel="stylesheet" href="css/lianhuanhua.css" />
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script src="js/lianhuanhua.js"></script>
+	<script>
+		var hongloumeng=[
+			{idx:"01",title:"乱判葫芦案"},
+			{idx:"02",title:"宝黛初会"},
+			{idx:"03",title:"熙凤弄权"},
+			{idx:"04",title:"黛玉葬花"},
+			{idx:"05",title:"宝玉受笞"},
+			{idx:"06",title:"二进荣国府"},
+			{idx:"07",title:"鸳鸯抗婚"},
+			{idx:"08",title:"宝玉瞒赃"},
+			{idx:"09",title:"红楼二尤"},
+			{idx:"10",title:"抄检大观园"},
+			{idx:"11",title:"潇湘惊梦"},
+			{idx:"12",title:"金桂之死"},
+			{idx:"13",title:"黛玉焚稿"},
+			{idx:"14",title:"查抄贾府"},
+			{idx:"15",title:"巧姐避祸"},
+			{idx:"16",title:"宝玉出走"},
+		];
+		var sanguoyanyi=[
+			{idx:"01",title:"桃园结义"},
+			{idx:"02",title:"董卓进京"},
+			{idx:"03",title:"捉放曹"},
+			{idx:"04",title:"虎牢关"},
+			{idx:"05",title:"跨江击刘表"},
+			{idx:"06",title:"凤仪亭"},
+			{idx:"07",title:"犯长安"},
+			{idx:"08",title:"三让徐州"},
+			{idx:"09",title:"李郭交兵"},
+			{idx:"10",title:"小霸王孙策"},
+			{idx:"11",title:"辕门射戟"},
+			{idx:"12",title:"战宛城"},
+			{idx:"13",title:"白门楼"},
+			{idx:"14",title:"煮酒论英雄"},
+			{idx:"15",title:"吉平下毒"},
+			{idx:"16",title:"白马坡"},
+			{idx:"17",title:"千里走单骑"},
+			{idx:"18",title:"战官渡"},
+			{idx:"19",title:"定四州"},
+			{idx:"20",title:"马跃檀溪"},
+			{idx:"21",title:"走马荐诸葛"},
+			{idx:"22",title:"三顾茅庐"},
+			{idx:"23",title:"火烧新野"},
+			{idx:"24",title:"长坂坡"},
+			{idx:"25",title:"舌战群儒"},
+			{idx:"26",title:"群英会"},
+			{idx:"27",title:"赤壁大战"},
+			{idx:"28",title:"取南郡"},
+			{idx:"29",title:"战长沙"},
+			{idx:"30",title:"甘露寺"},
+			{idx:"31",title:"三气周瑜"},
+			{idx:"32",title:"反西凉"},
+			{idx:"33",title:"张松献地图"},
+			{idx:"34",title:"截江夺阿斗"},
+			{idx:"35",title:"取成都"},
+			{idx:"36",title:"单刀会"},
+			{idx:"37",title:"濡须之战"},
+			{idx:"38",title:"定军山"},
+			{idx:"39",title:"水淹七军"},
+			{idx:"40",title:"走麦城"},
+			{idx:"41",title:"兄弟争王"},
+			{idx:"42",title:"火烧连营"},
+			{idx:"43",title:"安居平五路"},
+			{idx:"44",title:"七擒孟获"},
+			{idx:"45",title:"天水关"},
+			{idx:"46",title:"擒孟达"},
+			{idx:"47",title:"空城计"},
+			{idx:"48",title:"赚曹休"},
+			{idx:"49",title:"姜维献书"},
+			{idx:"50",title:"智取陈仓"},
+			{idx:"51",title:"八卦阵"},
+			{idx:"52",title:"诸葛装神"},
+			{idx:"53",title:"五丈原"},
+			{idx:"54",title:"政归司马氏"},
+			{idx:"55",title:"铁笼山"},
+			{idx:"56",title:"姜邓斗智"},
+			{idx:"57",title:"讨司马"},
+			{idx:"58",title:"姜维避祸"},
+			{idx:"59",title:"二士争功"},
+			{idx:"60",title:"三国归晋"},
+		];
+		var xiyouji=[
+			{idx:"01",title:"猴王出世"},
+			{idx:"02",title:"龙宫借宝"},
+			{idx:"03",title:"齐天大圣"},
+			{idx:"04",title:"蟠桃宴"},
+			{idx:"05",title:"寻访取经人"},
+			{idx:"06",title:"紧箍咒"},
+			{idx:"07",title:"收白龙马"},
+			{idx:"08",title:"黑风山"},
+			{idx:"09",title:"高老庄"},
+			{idx:"10",title:"黄风岭"},
+			{idx:"11",title:"流沙河"},
+			{idx:"12",title:"万年人参果"},
+			{idx:"13",title:"波月洞"},
+			{idx:"14",title:"平顶山"},
+			{idx:"15",title:"真假唐僧"},
+			{idx:"16",title:"火云洞"},
+			{idx:"17",title:"黑水河"},
+			{idx:"18",title:"除三怪"},
+			{idx:"19",title:"打闹通天河"},
+			{idx:"20",title:"金兜洞"},
+			{idx:"21",title:"女儿国"},
+			{idx:"22",title:"真假孙悟空"},
+			{idx:"23",title:"三盗芭蕉扇"},
+			{idx:"24",title:"伏龙寺"},
+			{idx:"25",title:"小雷音寺"},
+			{idx:"26",title:"七绝山"},
+			{idx:"27",title:"计盗紫金铃"},
+			{idx:"28",title:"盘丝洞"},
+			{idx:"29",title:"智战三魔"},
+			{idx:"30",title:"比丘国"},
+			{idx:"31",title:"无底洞"},
+			{idx:"32",title:"连环洞"},
+			{idx:"33",title:"悟空斗狮精"},
+			{idx:"34",title:"玄英洞"},
+			{idx:"35",title:"天竺国"},
+			{idx:"36",title:"灵山参佛祖"},
+		];
+		
+		var shuihuzhuan=[
+			{idx:"01",title:"九纹龙史进"},
+			{idx:"02",title:"鲁智深"},
+			{idx:"03",title:"野猪林"},
+			{idx:"04",title:"林冲雪夜上梁山"},
+			{idx:"05",title:"杨志卖刀"},
+			{idx:"06",title:"智取生辰纲"},
+			{idx:"07",title:"石碣村"},
+			{idx:"08",title:"宋江杀惜"},
+			{idx:"09",title:"狮子楼"},
+			{idx:"10",title:"快活林"},
+			{idx:"11",title:"清风寨"},
+			{idx:"12",title:"闹江州"},
+			{idx:"13",title:"李逵下山"},
+			{idx:"14",title:"三打祝家庄"},
+			{idx:"15",title:"高唐州"},
+			{idx:"16",title:"大破连环马"},
+			{idx:"17",title:"三山聚义"},
+			{idx:"18",title:"闹华山"},
+			{idx:"19",title:"大名府"},
+			{idx:"20",title:"曾头市"},
+			{idx:"21",title:"英雄排座次"},
+			{idx:"22",title:"李逵闹东京"},
+			{idx:"23",title:"燕青打擂"},
+			{idx:"24",title:"黑旋风扯诏"},
+			{idx:"25",title:"两破童贯"},
+			{idx:"26",title:"三败高俅"},
+			{idx:"27",title:"受招安遭陷害"},
+			{idx:"28",title:"破辽国徒劳无功"},
+			{idx:"29",title:"征方腊损兵折将"},
+			{idx:"30",title:"蓼儿洼"},
+		];
+		
+		function addImages(ary,series){
+			var resource="http://www.crazy-programmer.net/lianhuanhua/resource";
+			for (var i=0;i<ary.length;i++){
+				$("body").append("<a href=\"javascript:showGallery('json/"+series+"/"+ary[i].idx+".json','"+resource+"/"+series+"');\">"+
+				"<img src=\""+resource+"/"+series+"/thumbs/"+ary[i].idx+".jpg\" title=\""+ary[i].title+"\"></a>");
+			}
+		}
+		
+		$(function(){
+			addImages(hongloumeng,"hongloumeng");
+			addImages(sanguoyanyi,"sanguoyanyi");
+			addImages(xiyouji,"xiyouji");
+			addImages(shuihuzhuan,"shuihuzhuan");
+		})
+		
+		
+	</script>
+</head>
+<body>
+<!--
+
+
+	<a href="javascript:showGallery('01','fengshenyanyi');"><img src="fengshenyanyi/thumbs/01.jpg" title="纣王宠妲己"></a>
+	<a href="javascript:showGallery('02','fengshenyanyi');"><img src="fengshenyanyi/thumbs/02.jpg" title="诸侯反朝歌"></a>
+	<a href="javascript:showGallery('03','fengshenyanyi');"><img src="fengshenyanyi/thumbs/03.jpg" title="哪吒闹东海"></a>
+	<a href="javascript:showGallery('04','fengshenyanyi');"><img src="fengshenyanyi/thumbs/04.jpg" title="火烧琵琶精"></a>
+	<a href="javascript:showGallery('05','fengshenyanyi');"><img src="fengshenyanyi/thumbs/05.jpg" title="文王回岐山"></a>
+	<a href="javascript:showGallery('06','fengshenyanyi');"><img src="fengshenyanyi/thumbs/06.jpg" title="茅舍访贤人"></a>
+	<a href="javascript:showGallery('07','fengshenyanyi');"><img src="fengshenyanyi/thumbs/07.jpg" title="妲己害比干"></a>
+	<a href="javascript:showGallery('08','fengshenyanyi');"><img src="fengshenyanyi/thumbs/08.jpg" title="巧擒崇侯虎"></a>
+	<a href="javascript:showGallery('09','fengshenyanyi');"><img src="fengshenyanyi/thumbs/09.jpg" title="大战汜水关"></a>
+	<a href="javascript:showGallery('10','fengshenyanyi');"><img src="fengshenyanyi/thumbs/10.jpg" title="杨戬除四魔"></a>
+	<a href="javascript:showGallery('11','fengshenyanyi');"><img src="fengshenyanyi/thumbs/11.jpg" title="土行孙反殷"></a>
+	<a href="javascript:showGallery('12','fengshenyanyi');"><img src="fengshenyanyi/thumbs/12.jpg" title="冀州侯归周"></a>
+	<a href="javascript:showGallery('13','fengshenyanyi');"><img src="fengshenyanyi/thumbs/13.jpg" title="群力除殷郊"></a>
+	<a href="javascript:showGallery('14','fengshenyanyi');"><img src="fengshenyanyi/thumbs/14.jpg" title="姜子牙伐纣"></a>
+	<a href="javascript:showGallery('15','fengshenyanyi');"><img src="fengshenyanyi/thumbs/15.jpg" title="武王主天下"></a>
+
+	<a href="javascript:showGallery('01','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/01.jpg" title="烽火戏诸侯"></a>
+	<a href="javascript:showGallery('02','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/02.jpg" title="掘地见母"></a>
+	<a href="javascript:showGallery('03','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/03.jpg" title="大义灭亲"></a>
+	<a href="javascript:showGallery('04','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/04.jpg" title="杀婿逐王"></a>
+	<a href="javascript:showGallery('05','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/05.jpg" title="管仲拜相"></a>
+	<a href="javascript:showGallery('06','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/06.jpg" title="齐桓称霸"></a>
+	<a href="javascript:showGallery('07','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/07.jpg" title="唇亡齿寒"></a>
+	<a href="javascript:showGallery('08','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/08.jpg" title="三让徐州"></a>
+	<a href="javascript:showGallery('09','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/09.jpg" title="李郭交兵"></a>
+	<a href="javascript:showGallery('10','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/10.jpg" title="小霸王孙策"></a>
+	<a href="javascript:showGallery('11','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/11.jpg" title="辕门射戟"></a>
+	<a href="javascript:showGallery('12','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/12.jpg" title="战宛城"></a>
+	<a href="javascript:showGallery('13','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/13.jpg" title="白门楼"></a>
+	<a href="javascript:showGallery('14','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/14.jpg" title="煮酒论英雄"></a>
+	<a href="javascript:showGallery('15','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/15.jpg" title="吉平下毒"></a>
+	<a href="javascript:showGallery('16','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/16.jpg" title="白马坡"></a>
+	<a href="javascript:showGallery('17','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/17.jpg" title="千里走单骑"></a>
+	<a href="javascript:showGallery('18','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/18.jpg" title="战官渡"></a>
+	<a href="javascript:showGallery('19','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/19.jpg" title="定四州"></a>
+	<a href="javascript:showGallery('20','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/20.jpg" title="马跃檀溪"></a>
+	<a href="javascript:showGallery('21','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/21.jpg" title="走马荐诸葛"></a>
+	<a href="javascript:showGallery('22','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/22.jpg" title="三顾茅庐"></a>
+	<a href="javascript:showGallery('23','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/23.jpg" title="火烧新野"></a>
+	<a href="javascript:showGallery('24','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/24.jpg" title="长坂坡"></a>
+	<a href="javascript:showGallery('25','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/25.jpg" title="舌战群儒"></a>
+	<a href="javascript:showGallery('26','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/26.jpg" title="群英会"></a>
+	<a href="javascript:showGallery('27','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/27.jpg" title="赤壁大战"></a>
+	<a href="javascript:showGallery('28','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/28.jpg" title="取南郡"></a>
+	<a href="javascript:showGallery('29','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/29.jpg" title="战长沙"></a>
+	<a href="javascript:showGallery('30','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/30.jpg" title="甘露寺"></a>
+	<a href="javascript:showGallery('31','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/31.jpg" title="三气周瑜"></a>
+	<a href="javascript:showGallery('32','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/32.jpg" title="反西凉"></a>
+	<a href="javascript:showGallery('33','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/33.jpg" title="张松献地图"></a>
+	<a href="javascript:showGallery('34','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/34.jpg" title="截江夺阿斗"></a>
+	<a href="javascript:showGallery('35','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/35.jpg" title="取成都"></a>
+	<a href="javascript:showGallery('36','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/36.jpg" title="单刀会"></a>
+	<a href="javascript:showGallery('37','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/37.jpg" title="濡须之战"></a>
+	<a href="javascript:showGallery('38','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/38.jpg" title="定军山"></a>
+	<a href="javascript:showGallery('39','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/39.jpg" title="水淹七军"></a>
+	<a href="javascript:showGallery('40','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/40.jpg" title="走麦城"></a>
+	<a href="javascript:showGallery('41','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/41.jpg" title="兄弟争王"></a>
+	<a href="javascript:showGallery('42','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/42.jpg" title="火烧连营"></a>
+	<a href="javascript:showGallery('43','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/43.jpg" title="安居平五路"></a>
+	<a href="javascript:showGallery('44','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/44.jpg" title="七擒孟获"></a>
+	<a href="javascript:showGallery('45','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/45.jpg" title="天水关"></a>
+	<a href="javascript:showGallery('46','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/46.jpg" title="擒孟达"></a>
+	<a href="javascript:showGallery('47','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/47.jpg" title="空城计"></a>
+	<a href="javascript:showGallery('48','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/48.jpg" title="赚曹休"></a>
+	<a href="javascript:showGallery('49','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/49.jpg" title="姜维献书"></a>
+	<a href="javascript:showGallery('50','dongzhoulieguo');"><img src="dongzhoulieguo/thumbs/50.jpg" title="智取陈仓"></a>
+-->
+</body>
+</html>
